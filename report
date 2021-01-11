@@ -1,0 +1,154 @@
+
+WAR SPYING ROBOTS
+
+
+ 
+
+
+
+                                                                                                         BY,
+                                                                                                      KOLLA AKASH
+                                                                                                      190C2020009
+
+
+
+INTRODUCTION
+The project is designed to develop a robotic vehicle using RF technology for remote operation attached with wireless camera for monitoring purpose. The robot along with camera can wirelessly transmit real time video with night vision capabilities. This is kind of robot can be helpful for spying purpose in war fields. An 8051 series of microcontroller is used for the desired operation.
+
+WHY IS IT USED?
+ Speed
+  It can work in hazardous/dangerous environment
+  To perform repetitive task
+  Efficiency
+  Accuracy
+  Adaptability
+
+
+CAPABILITIES
+ Patrol the surroundings with sharp camera-eye. 
+ Send video and data captured to the server wirelessly.
+  Easy control by a remote through wireless network.
+  Mobile in all directions with miniature size.
+  Conceal in camouflage without attracting attention.
+
+
+
+
+
+
+
+
+
+
+BLOCK DIAGRAM FOR TRANSMITTER
+ 
+
+HARDWARE REQUIREMENTS
+       8051 series Microcontroller 
+RF tx-rx
+DC Motors
+Motor driver IC 
+Encoder
+Decoder 
+Push Buttons
+Diodes
+Resistors 
+Capacitors
+Wireless Camera
+
+SOFTWARE REQUIREMENTS
+        Keil compiler 
+        Language: Embedded C or Assembly
+
+
+BLOCK DIAGRAM FOR RECEIVER
+ 
+
+
+ENCODER
+ It converts parallel data to serial data. 
+ 18 PIN DIP.  Operating Voltage: 2.4V ~ 12V.
+  Low Power and High Noise Immunity.
+  Low Standby Current and Minimum Transmission Word.
+  Easy Interface with and RF or an Infrared transmission medium.
+
+DECODER
+ It converts serial data into parallel data. 
+ 18 PIN DIP.  Operating Voltage:2.4V~12.0V.
+  Low power and High Noise Immunity.
+  Capable of Decoding 12 bits of Information. 
+ Easy Interface with RF of IR transmission medium.
+
+RF MODULE FEATURES
+Range in Open Space up to 200 Meters 
+Low Power Consumption 
+Easy for Application
+TX Frequency Range: 433 MHz 
+TX Supply Voltage: 3v ~ 6V 
+TX Out Put Power: 4 ~ 12 Dbm 
+RX Receiver Frequency: 433 MHz 
+RX Typical Sensitivity: 105 Dbm 
+RX Supply Current: 3.5 mA 
+RX IF Frequency: 1 MHz
+
+WIRELESS CAMERA
+Automatic motion detection features. 
+Min 100 meters transmission distance without block 
+Imaging Sensor 1/3-inch CMOS 
+CMOS total pixels:628*582(PAL)/510*492(NTSC)
+Minimum illumination:1.5lux
+
+
+MOTOR DRIVER FEATURES
+ Wide supply voltage range: 4.5V to 36V 
+ Separate Input - logic supply and TTL compatible
+  High-Noise-Immunity input 
+ Output current 1A per channel
+  Peak output current 2 A per channel
+
+
+
+
+
+DC MOTOR
+ Operation is based on simple electromagnetism. 
+ Two 45 rpm DC motors. 
+ Requires 12 volts of DC supply.
+
+WORKING PRINCIPLE
+ By pressing the transmitting end push button.
+  Commands are sent to the receiver to control the movement of the robot. 
+ To move forward, backward and left or right etc.
+  At the receiving end two motors are interfaced to the microcontroller. 
+ They used for the movement of the robotic vehicle.
+
+WORKING PRINCIPLE
+ The RF transmitter acts as a RF remote control with proper antenna up to 200 meters of range.
+  The receiver decodes before feeding it to another microcontroller to drive DC motors via motor driver IC.
+  A wireless camera is mounted on the robot body for spying purpose.
+  Camera works even in complete darkness by using infrared lighting.
+
+APPLICATIONS
+ Military reconnaissance mission.
+  Wireless security and surveillance in hot spots.
+  Search and rescue operation.
+
+
+
+
+
+
+
+FUTURE ENHANCEMENTS
+ We can connect this system directly to internet by using ZigBee with Wi-Fi.
+  By using internet, we can control the system via remote location.
+  We do not require any simulation tool by using GUI software.
+  Halogen light can be used for the vision of the robot. 
+ Using DTMF technology we can control the robotic vehicle by using cell phone.
+
+CONCLUSION
+ With the help of the camera, we are able to view the things that are happening in the surrounding area where the robot is hidden. This is kind of robot can be helpful for spying purpose in war fields with night vision wireless camera. The robot will move depending on the motor direction based upon the input we give through command by remote section unit. By keeping the circuit easy and simple, most users will be able to use it easily.
+
+
+
+THE END
